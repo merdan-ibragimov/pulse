@@ -1,0 +1,25 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url('../../img/BG/bg2.png') center (center/cover) no-repeat;
+    &__descr {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        color: #fff;
+        margin-top: 80px;
+        margin-bottom: 35px;
+    }
+    .feed-form {
+        display: flex;
+        flex-direction: column;
+        input {
+            margin-bottom: 14px;
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            border: none;
+            padding: 20px 20px;
+        }
+    }
+}
