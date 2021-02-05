@@ -1,0 +1,107 @@
+.catalog {
+  padding-bottom: 100px;
+  &__tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;}
+
+  &__tab {
+    width: 220px;
+    height: 50px;
+    border: 2px solid #D0D0D0;
+    transform: skewX(-25deg);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+    &:hover {
+      box-shadow: 3px 3px 20px $main-color;
+      border: none;}
+
+    div {
+      transform: skewX(25deg);}
+
+    &_active {
+      background-color: $main-color;
+      color: #ffffff;
+      border: none;}}
+
+  &__content {
+    margin-top: 60px;
+  }
+  &-item {
+    width: 300px;
+    min-height: 440px;
+    border: 2px solid #D0D0D0;
+    padding: 20px 20px 26px 20px;
+
+    &__img {
+      max-width: 100%;
+      height: 140px;
+      display: block;
+      margin: 0 auto;}
+
+    &__subtitle {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0D0D0D;
+      text-align: center;
+      margin-top: 20px;}
+
+    &__descr {
+      font-size: 14px;
+      font-weight: 500;
+      color: #0D0D0D;
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 17px;}
+
+    &__link {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      color: $main-color;
+      text-decoration: underline;
+      text-align: center;
+      &:hover {
+        color: $main-color;}}
+
+    hr {
+      margin-top: 19px;
+      margin-bottom: 21px;}
+
+    &__footer {
+      display: flex;
+      justify-content: space-between;}
+
+    &__old-price {
+      font-size: 14px;
+      font-weight: 300;
+      color: #555555;
+      text-decoration: line-through;}
+
+    &__new-price {
+      font-size: 20px;
+      font-weight: 700;
+      color: #050505;
+      margin-top: -5px;}
+    
+    &__back {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      color: $main-color;
+      text-decoration: underline;
+      text-align: center;
+      &:hover {
+        color: $main-color;}
+    }}
+}
