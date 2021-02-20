@@ -1,0 +1,64 @@
+.footer {
+    height: 630px;
+    position: relative;
+    &__info {
+        position: absolute;
+        background-color: $main-color;
+        height: 271px;
+        width: 461px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);}
+    
+    &__address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 51px;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            color: blue;}}
+
+    &__tel {
+        text-transform: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 36px;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;}
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -50%;
+        transform: translateX(4%);
+        margin-top: 37px;}
+        
+    &__icon {
+        border: 2px solid white;
+        border-radius: 100%;
+        width: 51px;
+        height: 51px;
+        cursor: pointer;
+        margin-right: 29px;
+        &:hover {
+            box-shadow: 2px 2px 20px #3737ff; }
+        &:active {
+            background-color: rgb(255, 0, 43);
+        }}
+
+    .facebook {
+        padding: 11px 0px 4px 15px;}
+
+    .instagram {
+        padding: 10px;}
+
+    .pp {
+        padding: 11px;}}

@@ -32,4 +32,13 @@
             font-weight: 700;
         }
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s cubic-bezier(.8,1.5,.2,-1) infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
+

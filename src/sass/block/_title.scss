@@ -5,7 +5,7 @@
     text-transform: uppercase;
 }
 
-.consultation__title_left {
+.title_left {
     font-size: 36px;
     font-weight: 700;
     text-align: left;
@@ -19,4 +19,13 @@
     color: #0D0D0D;
     text-align: center;
     text-transform: uppercase;
+}
+
+.feed__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0D0D0D;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
