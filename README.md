@@ -1,1 +1,1 @@
-https://merdan-ibragimov.github.io/pulse/src
+https://merdan-ibragimov.github.io/pulse/dist
